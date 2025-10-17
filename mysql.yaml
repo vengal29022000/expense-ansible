@@ -29,7 +29,7 @@
   - name: connect to mysql server
     community.mysql.mysql_info:
       login_user: root
-      login_password: "{{ mysql_root_password }}""
+      login_password: "{{ mysql_root_password }}"
       login_host: mysql.vengalareddy.site
     register: mysql_info
     ignore_errors: true
